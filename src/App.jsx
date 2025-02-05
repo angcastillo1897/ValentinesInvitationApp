@@ -110,9 +110,9 @@ function App() {
         {currentView === "finalMessage" && (
           <div className="w-full max-w-[400px] sm:max-w-[450px] md:max-w-[550px] flex flex-col justify-center items-center gap-8">
             <motion.h3
-            initial={{ y: 600,x:-200, opacity: 0 }}
-            animate={{ y: 0,x:0, opacity: 1 }}
-            transition={{ duration: 1 }}  className="text-xl md:text-2xl font-bold text-pink-600 text-center">¡Gracias por aceptar pasar este San Valentín conmigo!
+            initial={{ y: -600, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 2 }}  className="text-xl md:text-2xl font-bold text-pink-600 text-center">¡Gracias por aceptar pasar este San Valentín conmigo!
             Tú unica tarea es ponerte bonita (como siempre) porque de todo lo demas yo me encargo, porque mi felicidad se mide en sonrisas tuyas.
             ¡Te quiero, Mashi!🫶🏽
             🥳</motion.h3>
