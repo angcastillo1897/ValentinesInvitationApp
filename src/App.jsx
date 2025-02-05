@@ -11,15 +11,15 @@ const WSPP_LINK = "https://wa.me/51969311215"
 
 const NOT_BUTTON_PHRASES = [
   "No",
-  "Estas segura? 🥺",
+  "¿Estás segura? 🥺",
   "Piensa en ello 🙏",
-  "Piensalo otra vez por favor 🙏",
-  "Me romperás el corazón ? 😭",
+  "Piénsalo otra vez por favor 🙏",
+  "Me romperás el corazón 😭",
   "😞😞😞",
-  "Anda no seas malita 🙏",
-  "Di que sii 😊",
+  "Anda, no seas malita 🙏",
+  "Di que sí 😊",
   "😨😨😨",
-  "Porfavor 🥺🥺",
+  "Por favor 🥺",
   "No me hagas llorar 😭",
   "No me hagas esto 😞😞",
 ]
@@ -113,7 +113,7 @@ function App() {
             initial={{ y: -600, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 2 }}  className="text-xl md:text-2xl font-bold text-pink-600 text-center">¡Gracias por aceptar pasar este San Valentín conmigo!
-            Tú unica tarea es ponerte bonita (como siempre) porque de todo lo demas yo me encargo, porque mi felicidad se mide en sonrisas tuyas.
+            Tú unica tarea es ponerte bonita (como siempre) porque de todo lo demás me encargo yo, porque mi felicidad se mide en sonrisas tuyas.
             ¡Te quiero, Mashi!🫶🏽
             🥳</motion.h3>
 
