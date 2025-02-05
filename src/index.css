@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-icon {
+  animation: rotate 7s linear infinite;
+}
+
+@keyframes heartbeat {
+
+  0%,
+  50%,
+  100% {
+    transform: scale(1.2, 1.2);
+  }
+
+  30%,
+  80% {
+    transform: scale(0.85, 0.85);
+  }
+}
+
+.heartbeat-icon {
+  animation: heartbeat 3s ease-in-out infinite;
+}
+
+.polaroid {
+  @apply bg-white p-4 shadow-lg;
+  border: 1px solid #ddd;
+  display: inline-block;
+  text-align: center;
+  width: 60%;
+  max-width: 400px;
+  padding-bottom: 30px;
+}
+
+.polaroid-img {
+  @apply w-full;
+  display: block;
+}
