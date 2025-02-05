@@ -97,7 +97,7 @@ function App() {
             <Sparkles className="w-6 h-6 text-yellow-400 absolute bottom-2 left-2 rotate-icon" />
             {/* Content */}
             <Heart className="w-20 h-20 text-red-500 heartbeat-icon" />
-            <h3 className="w-[90%] text-2xl lg:text-3xl font-bold text-pink-600 text-center">Bianca Gonzalez, ¿Quieres ser mi San Valentín? 💝</h3>
+            <h3 className="w-[90%] text-2xl lg:text-3xl font-bold text-pink-600 text-center">Bianca, ¿Quieres ser mi San Valentín? 💝</h3>
 
             <div className="flex flex-col gap-4  items-center">
               <Button onClick={() => changeView("finalMessage")} type="primary"
